@@ -61,6 +61,8 @@ header p {
     font-size: 0.8em;
     padding: 10px;
     text-align: justify;
+    text-indent: 20px;
+    line-height: 20px;
 }
 
 header a.site {
@@ -69,7 +71,7 @@ header a.site {
     font-family: 'android', serif;
     display: inline-block;
     padding: 10px;
-    margin: 0 auto 5px auto;
+    margin: auto;
     border: 1px solid white;
     border-radius: 10px;
     transition: all 0.3s ease-out;
