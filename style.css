@@ -5,6 +5,11 @@
     src: url(fontes/lemon_milk/LEMONMILK-Medium.otf) format(opentype);
 }
 
+@font-face {
+    font-family: android;
+    src: url(fontes/android/idroid.otf) format(opentype);
+}
+
 body {
     background: url(imagens/background.jpg) no-repeat;
     background-size: cover;
@@ -61,6 +66,7 @@ header p {
 header a.site {
     color: white;
     text-decoration: none;
+    font-family: 'android', serif;
     display: inline-block;
     padding: 10px;
     margin: 0 auto 5px auto;
